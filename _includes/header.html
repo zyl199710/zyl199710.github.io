@@ -63,7 +63,7 @@
               {%- endif %}
 
               <!-- Other pages -->
-              {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
+              {%- assign sorted_pages = site.pages | sort: "title" -%}
               {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
@@ -94,8 +94,17 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
-              {%- if site.enable_darkmode %}
 
+              <!-- CV page -->
+              <li class="nav-item">
+                <a class="nav-link" href="{{ '/assets/pdf/CV.pdf' | relative_url }}" target="_blank">Cv
+                  {%- if page.title == "Cv" -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+
+              {%- if site.enable_darkmode %}
               <!-- Toogle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">

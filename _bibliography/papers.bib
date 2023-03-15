@@ -1,84 +1,111 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@article{yilong2023user,
+    title  =  {User and Interaction both Matter: Social Relationship Mining via Interaction Graph Propagating},
+    author =  {Zang, Yilong and Hu, Ruimin and Li, Xixi and Wang, Zheng and Li, Dengshi},
+  booktitle   = {ICC 2023-IEEE International Conference on Communications},
+  journal =     {ICC 2023-IEEE International Conference on Communications},
+  abbr        = {ICC 2023},
+  year        = {2023},
+  selected    = {true},
+  abstract    = {Social relationship mining benefits many applications such as leadership analysis and advisor recommendation. Existing methods focus on mining user relationships only from the perspective of user-level. To our knowledge, from this perspective, representing the user interactions by edges is not sufficient for the complex information about interactions between users. In addition, mining users' relationship independently ignores the propagation of social interaction across networks. In this paper, we investigate social relationship mining from a new perspective of interaction-level. We propose an Interaction Graph Propagating(IGP) model which constructs an interaction graph. It not only captures the user interaction information as the union but also exploits the propagation between user interactions. In particular, we utilize the graph attention mechanism to distinguish the contributions of each neighbor union. Experimental results on several public datasets demonstrate that IGP achieves significant improvements over state-of-the-art methods.}
+  }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@article{wu2022idgl,
+  title={IDGL: An Imbalanced Disassortative Graph Learning Framework for Fraud Detection},
+  author={Wu, Junhang and Hu, Ruimin and Li, Dengshi and Ren, Lingfei and Hu, Wenyi and Zang, Yilong},
+  booktitle={Service-Oriented Computing: 20th International Conference, ICSOC 2022, Seville, Spain, November 29--December 2, 2022, Proceedings},
+  journal =     {Service-Oriented Computing: 20th International Conference},
+  pages={616--631},
+  year={2022},
+  organization={Springer},
+  selected    = {false},
+  abbr = {ICSOC 2022},
+  abstract    = {The thriving growth of Internet service not only facilitates our daily lives but also incubates various fraudulent activities with concealment. The traceable interactive behaviors forming the graph-like data provide a great opportunity for graph-based fraud detection. Owing to the stellar performance of assortative graph learning, GNN-based fraud detection methods escalate much attention. However, the fraud graph is not always assortative but more likely disassortative as the fraudsters usually camouflage themselves via building numerous connections with normal users. Additionally, the GNN-based fraud detection methods also suffer from graph imbalance issues as the number of fraudsters is far less than that of the normal users. To address these problems, an imbalanced disassortative graph learning framework (IDGL) is proposed with two key components. First, an adaptive dual-channel convolution filter is developed to adaptively combine the advantage of low- and high-frequency signals from its neighbors so as to assimilate the nodes with assortative edges and discriminate the nodes with disassortative edges. Second, a label-aware nodes and edges sampler is designed with the consideration of nodes’ popularity and corresponding label class frequency, which helps the model simultaneously eliminate the bias towards the major classes and pay more attention to the valuable connections (fraud-fraud, fraud-benign). Extensive experiments on two public fraud datasets demonstrate the effectiveness of our method.},
+   bibtex_show = {ture},
+   html        = {https://link.springer.com/chapter/10.1007/978-3-031-20984-0_44},
+   bibtex = {@inproceedings\{wu2022idgl,
+               title=\{IDGL: An Imbalanced Disassortative Graph Learning Framework for Fraud Detection\},
+               author=\{Wu, Junhang and Hu, Ruimin and Li, Dengshi and Ren, Lingfei and Hu, Wenyi and Zang, Yilong\},
+               booktitle=\{Service-Oriented Computing: 20th International Conference, ICSOC 2022, Seville, Spain, November 29--December 2, 2022, Proceedings\},
+               pages=\{616--631\},
+               year=\{2022\},
+               organization=\{Springer\}
+             \} }
+   }
+
+@article{wu2022bi,
+  title={A Bi-directional Category-Aware Multi-task Learning Framework for Missing Check-in POI Identification},
+  author={Wu, Junhang and Hu, Ruimin and Li, Dengshi and Ren, Lingfei and Hu, Wenyi and Zang, Yilong},
+  booktitle={Service-Oriented Computing: 20th International Conference, ICSOC 2022, Seville, Spain, November 29--December 2, 2022, Proceedings},
+  pages={584--599},
+  year={2022},
+  organization={Springer},
+    abbr = {ICSOC 2022},
+    journal = {Service-Oriented Computing: 20th International Conference},
+  html = {https://link.springer.com/chapter/10.1007/978-3-031-20984-0_42},
+  bibtex_show = {true},
+   abstract = {The prevalence of Location-based Social Networks (LBSNs) services makes next personalized Point-of-Interest (POI) prediction become a research topic. However, due to device failure or intention camouflage, geolocation information missing prevents existing POI-oriented studies for advanced user preference analysis. Herein, we proposed a Bi-directional category-aware multi-task learning (Bi-CatMTL) framework, which fuses bi-direction spatiotemporal transition patterns and personalized dynamic preference to identify where the user has been at a past specific time, namely missing POI identification. Specifically, Bi-CatMTL introduces: (1) a two-channel encoder, i.e., spatial-aware POI encoder and temporal-aware category encoder, to capture user bi-directional dual-grained mobility transition patterns; (2) a task-oriented decoder to fuse learned transition patterns and personalized preference for multi-task prediction; (3) a POI2Cat matrix to make full use of both types of sequential dependencies. Extensive experiments demonstrate the superiority of our model, and it can also be adaptively extended to next POI prediction task with the convincing performance.},
+  bibtex = {@inproceedings\{wu2022bi,
+              title=\{A Bi-directional Category-Aware Multi-task Learning Framework for Missing Check-in POI Identification\},
+              author=\{Wu, Junhang and Hu, Ruimin and Li, Dengshi and Ren, Lingfei and Hu, Wenyi and Zang, Yilong\},
+              booktitle=\{Service-Oriented Computing: 20th International Conference, ICSOC 2022, Seville, Spain, November 29--December 2, 2022, Proceedings\},
+              pages=\{584--599\},
+              year=\{2022\},
+              organization=\{Springer\}
+            \}
+            }
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{ren2022cross,
+  title={Cross-Regional Friendship Inference via Category-Aware Multi-Bipartite Graph Embedding},
+  author={Ren, Linfei and Hu, Ruimin and Li, Dengshi and Wu, Junhang and Zang, Yilong and Hu, Wenyi},
+  booktitle={2022 IEEE 47th Conference on Local Computer Networks (LCN)},
+  journal = {2022 IEEE 47th Conference on Local Computer Networks (LCN)},
+  pages={73--80},
+  year={2022},
+  abbr = {LCN2022},
+  html = {https://ieeexplore.ieee.org/abstract/document/9843580},
+  abstract = {This paper proposes a novel problem of cross-regional friendship inference to solve the geographically restricted friends recommendation. Traditional approaches rely on a fundamental assumption that friends tend to be co-location, which is unrealistic for inferring friendship across regions. By reviewing a large-scale Location-based Social Networks (LBSNs) dataset, we spot that cross-regional users are more likely to form a friendship when their mobility neighbors are of high similarity. To this end, we propose Category-Aware Multi-Bipartite Graph Embedding (CMGE for short) for cross-regional friendship inference. We first utilize multi-bipartite graph embedding to capture users’ Point of Interest (POI) neighbor similarity and activity category similarity simultaneously, then the contributions of each POI and category are learned by a category-aware heterogeneous graph attention network. Experiments on the real-world LBSNs datasets demonstrate that CMGE outperforms state-of-the-art baselines.},
+  organization={IEEE}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{li2022dynamic,
+  title={Dynamic Behavior Pattern: Mining the Fraudsters in Telecom Network.},
+  author={Li, Dengshi and Zeng, Lu and Hu, Rumin and Huang, Zijun and Liang, Xiaocong and Zang, Yilong},
+  booktitle={2022 IEEE 23rd Int Conf on High Performance Computing \& Communications (HPCC)},
+  journal = {2022 IEEE 23rd Int Conf on High Performance Computing \& Communications (HPCC)},
+  year={2022},
+  abbr = {HPCC2022},
+  abstract = {Only the chairs can editIn telecom network fraud, the fraud method of the fraudsters varies significantly in different periods. However, the traditional method of telecom fraud is to train the telecom fraud mining model through the user's long-term telephone data. So they can not detect the new fraud method of fraudsters and can not identify those with only have short-term telephone data. To increase the identification precision of telecom fraudsters, the dynamic changes in social structure and behavior pattern features of fraudsters were studied in this paper. Specifically, from the perspective of social structure change, the social structure of fraudsters changes rapidly over time. In contrast, the social structure of normal users is stable over time. From the perspective of user behavior pattern features, we found that the behavior patterns of fraudsters and normal users were very different. The behavior pattern of fraudsters in the different periods also changes significantly. Therefore, a telecom network fraud detection framework based on the social relationship evolution model was proposed. We designed the feature extraction method of dynamic telephone social behavior patterns based on time slices. The method combines the features of social structure and behavior patterns of users. And the Telephone Network Fraud Detection(TNFD) model is built using LSTM. We set up a sliding time window to enable the model to identify users with only short-term telephone data. This time window dynamically takes the features of the user's telephone social behavior pattern as the input of the TNFD model. Experiments on real dataset show that the precision of TNFD is 7% higher than that of the latest method. Our research may reference public security organs in telecom fraud cases.},
+    organization={IEEE}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{li2022itc,
+  title={ITC: Influential-Truss Community Search},
+  author={Li, Dengshi and Zeng, Lu and Hu, Ruimin and Liang, Xiaocong and Zang, Yilong},
+  booktitle={2022 International Joint Conference on Neural Networks (IJCNN)},
+  journal={2022 International Joint Conference on Neural Networks (IJCNN)},
+  abbr = {IJCNN2022},
+  html = {https://ieeexplore.ieee.org/abstract/document/9892552},
+  abstract = {Community search is a method of finding a com-munity closely related to a query node. The latest influence community search considers both the structural cohesion of the community and the influence between nodes. It sets the influence threshold to constrain the output community. However, artificially setting the influence threshold makes the output community too large or too small, which leads to low accuracy of the output community. In order to avoid the low accuracy of community search caused by artificially setting influence thresh-old constraints, this paper studies the community search problem based on community influence score. In this paper, an influence-truss community (ITC) model is proposed for community search by combining structural cohesion and community influence score. This model aims to obtain a connected subgraph in a social network containing the query node, which satisfies structural cohesion and satisfies the subgraph's maximum community in-fluence score. In order to obtain ITC, an effective pruning method is proposed, which strips other nodes far away from the query node. Then, the ITCS algorithm is designed, which firstly imposes structural cohesion constraints on query nodes. Then, the search community's influence scores are iteratively calculated until the community has the highest community influence score under the condition of meeting the structural cohesion. Experiments on real-world networks of different scales show that the community search accuracy index of ITCS is improved by about 20% compared with the traditional method.},
+  pages={01--08},
+  year={2022},
+  organization={IEEE}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
+
+
+
+
+
+
+
+
+
+
+
+
