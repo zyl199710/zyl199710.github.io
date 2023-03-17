@@ -19,7 +19,7 @@ I am a final grade master student at [National Engineering Research Center For M
 
 My master's research task is graph-based fraud detection. I mainly analyze the new problems and patterns of fraudsters in graph data, and then design a suitable GNN model to solve the above problems.
 
-**I am currently looking for a PhD position.** During my PhD, my goal is to become an independent researcher. I hope to delve into the theory of graph data and graph neural networks, such as robustness, efficiency, and acceleration.
+**I am currently looking for a PhD position.** My goal as a PhD is to become an independent researcher. I hope to delve into the theory of graph data and graph neural networks, such as robustness, efficiency, and acceleration.
 
 During my spare time, I like to do a variety of sports, like swimming, fitness, and badminton. I've recently become addicted to snowboarding, and I've tried both single and double boarding.
 
