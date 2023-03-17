@@ -17,5 +17,11 @@ Hello everyone. My name is **Yilong Zang**. Welcome to my website.
 
 I am a final grade master student at [National Engineering Research Center For Multimedia Software](http://multimedia.whu.edu.cn/index.php?lang=2) at [Wuhan University](https://en.whu.edu.cn/). I am supervised by Prof. [Ruimin Hu](http://multimedia.whu.edu.cn/index.php?a=show&catid=69&id=71&lang=2) and Prof. [Zheng Wang](https://wangzwhu.github.io/home/) (co-advisor). My research interests are fraud detection, graph neural network, and social network.
 
+My master's research task is graph-based fraud detection. I mainly analyze the new problems and patterns of fraudsters in graph data, and then design a suitable GNN model to solve the above problems.
+
+**I am currently looking for a PhD position.** During my PhD, my goal is to become an independent researcher. I hope to delve into the theory of graph data and graph neural networks, such as robustness, efficiency, and acceleration.
+
+During my spare time, I like to do a variety of sports, like swimming, fitness, and badminton. I've recently become addicted to snowboarding, and I've tried both single and double boarding.
+
 
 
