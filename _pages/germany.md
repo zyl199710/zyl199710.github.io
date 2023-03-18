@@ -5,9 +5,9 @@ permalink: /germany/
 nav: true
 nav_order: 1
 profile:
-align: left
-image: prof_pic1.jpg
-image_circular: false # crops the image to make it circaular
+    align: left
+    image: prof_pic1.jpg
+    image_circular: false # crops the image to make it circaular
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
