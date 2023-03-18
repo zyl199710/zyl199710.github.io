@@ -1,27 +1,24 @@
 ---
 layout: about
-title: Home
+title: English
 permalink: /
 
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false # crops the image to make it circaular
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Hello everyone. My name is **Yilong Zang**. Welcome to my website.
+Hello everyone. My name is **Anqi Huo**. I am an oboist.:musical_note: Welcome to my website.
 
-I am a final grade master student at [National Engineering Research Center For Multimedia Software](http://multimedia.whu.edu.cn/index.php?lang=2) at [Wuhan University](https://en.whu.edu.cn/). I am supervised by Prof. [Ruimin Hu](http://multimedia.whu.edu.cn/index.php?a=show&catid=69&id=71&lang=2) and Prof. [Zheng Wang](https://wangzwhu.github.io/home/) (co-advisor). My research interests are fraud detection, graph neural network, and social network.
+I graduated from the Orchestral Faculty at [Wuhan Conservatory of Music](http://lxs.whcm.edu.cn/) in 2021. I have studied under the guidance of Prof. Juan Lin and Yi Cao (Konzertexsamen in HMDK Stuttgart).
 
-My master's research task is graph-based fraud detection. I mainly analyze the new problems and patterns of fraudsters in graph data, and then design a suitable GNN model to solve the above problems.
+I am currently looking for a Master of Music opportunity in Germany. Welcome to follow my [Youtube channel](https://www.youtube.com/@anqihuo2055) to learn more about my performances.
 
-**I am currently looking for a PhD position.** My goal as a PhD is to become an independent researcher. I hope to delve into the theory of graph data and graph neural networks, such as robustness, efficiency, and acceleration.
-
-During my spare time, I like to do a variety of sports, like swimming, fitness, and badminton. I've recently become addicted to snowboarding, and I've tried both single and double boarding.
 
 
 
