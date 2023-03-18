@@ -66,6 +66,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
+
 youtube_id: anqihuo2055 # your youtube channel id (youtube.com/@<youtube_id>)
 github_username: anqihuo # your GitHub user name
 gitlab_username: # your GitLab user name
