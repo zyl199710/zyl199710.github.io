@@ -24,7 +24,7 @@ I am currently looking for a Master of Music opportunity in Germany. Welcome to 
 #### Experience
 
 | 2007 | Started to study oboe at the age of eight |
-|2014-2017|  |
+|2014-2017| Instructed by Ying Yu during high school |
 | 2017 |  Ranked No.1 in major and entered Wuhan Conservatory of Music, under the guidance of Juan Lin|
 | Master class| Christian Schmitt - Professor of Oboe, Stuttgart University of Music, Germany|
 | Master class| Liang Wang - solo-oboist, New York Philharmonic Orchestra|
