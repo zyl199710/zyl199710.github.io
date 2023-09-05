@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-01-18 07:59:00-0400
+date: 2023-07-18 07:59:00-0400
 inline: true
 ---
 
-One paper was submitted to [IJCAI2023](https://ijcai-23.org/). The paper is about fraud detection task. Wish me good luck! :smile:
+One co-authored paper about graph condensation was submitted to [ICDE 2024](https://icde2024.github.io/).
