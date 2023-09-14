@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 
 Hallo zusammen. Mein Name ist Anqi Huo. Ich bin ein Oboist.:musical_note: Willkommen auf meiner Website.
 
-Ich schloss mein Studium an der Orchesterfakultät der [Musikhochschule Wuhan](http://lxs.whcm.edu.cn/) im Jahr 2021 ab.  Ich habe unter der Leitung von Prof. Juan Lin und Yi Cao (Konzertexsamen in HMDK Stuttgart) studiert.
+Ich schloss mein Studium an der Orchesterfakultät der [Musikhochschule Wuhan](http://lxs.whcm.edu.cn/) im Jahr 2021 ab.  Ich habe unter der Leitung von Prof. Yi Cao (Konzertexsamen in HMDK Stuttgart) studiert.
 
 Ich bin derzeit auf der Suche nach einer Master of Music Möglichkeit in Deutschland. Bitte folgen Sie meinem [Youtube-Kanal](https://www.youtube.com/@anqihuo2055), um mehr über meine Auftritte zu erfahren.
 
