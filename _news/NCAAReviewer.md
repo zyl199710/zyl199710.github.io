@@ -4,4 +4,4 @@ date: 2023-10-25 07:59:00-0400
 inline: true
 ---
 
-Become a reviewer for an [Neural Computing and Applications **NCAA** journal paper.
+I become a reviewer for a paper of **Neural Computing and Applications NCAA** journal.
