@@ -17,7 +17,7 @@ Hello. I am **Yilong Zang (臧屹隆)**. Thank you for visiting!
 
 I am now a research assistant at [PolyU SHTM](https://www.polyu.edu.hk/shtm/). My supervisor is [Dr. Hengyun Neil Li](https://research.polyu.edu.hk/en/persons/hengyun-li). 
 
-Now my research interest focus on **the application of GNNs to hotel survival prediction**, as well as some interesting and challenging hotel and tourism-related tasks.
+Now my research interest focus on **the application of GNNs to business survival prediction**, as well as some interesting and challenging hotel and tourism-related tasks.
 
 Prior to that, I was honored to work as a research assistant in the [DSA](https://datasciapps.de) group at [German Research Center for Artificial Intelligence (DFKI)](https://www.dfki.de/en/web) for a period of time under the supervision of [Prof. Sebastian Vollmer](https://datasciapps.de/author/sebastian-vollmer/).
 
