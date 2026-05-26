@@ -12,7 +12,7 @@
   --accent: #A02337;
   --accent-soft: #f8eef0;
   --card: #fafafa;
-  --max-width: 860px;
+  --max-width: 960px;
 }
 
 * { box-sizing: border-box; }
@@ -23,7 +23,7 @@ body {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", sans-serif;
   line-height: 1.65;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 a { color: var(--accent); text-decoration: none; }
@@ -72,6 +72,7 @@ a:hover { text-decoration: underline; }
 
 .scholar-icon {
   color: #4285f4;
+  font-size: 1.05em;
 }
 
 .github-icon {
@@ -85,9 +86,40 @@ a:hover { text-decoration: underline; }
 .linkedin-icon {
   color: #0A66C2;
 }
-.nav-links { display: flex; gap: 18px; align-items: center; }
-.nav-links a { color: #333; font-size: 15px; }
-.nav-links a.active { color: var(--accent); font-weight: 600; }
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-left: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #333;
+  font-size: 17px;
+}
+
+.nav-links a.active {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.polyu-logo-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.polyu-logo {
+  display: block;
+  height: 34px;
+  width: auto;
+}
 
 .container {
   max-width: var(--max-width);
@@ -158,7 +190,7 @@ ul, ol { padding-left: 22px; }
   padding: 8px 0;
   border-bottom: 1px dashed var(--line);
 }
-.news-date { color: var(--muted); font-size: 14px; white-space: nowrap; }
+.news-date { color: var(--muted); font-size: 15px; white-space: nowrap; }
 
 .pub-list { list-style: none; padding-left: 0; margin: 0; counter-reset: pub-counter; }
 .pub-item {
@@ -177,7 +209,7 @@ ul, ol { padding-left: 22px; }
   margin-right: 8px;
 }
 .pub-title { font-weight: 600; color: #111; margin-bottom: 5px; }
-.pub-authors, .pub-venue { color: #444; font-size: 15px; }
+.pub-authors, .pub-venue { color: #444; font-size: 16px; }
 .pub-venue { font-style: italic; }
 .pub-actions { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 8px; }
 .tag, .pub-actions a {
@@ -613,5 +645,24 @@ details p { margin-top: 8px; color: #444; font-size: 15px; }
 
   .pdf-viewer {
     height: 680px;
+  }
+}
+
+/* ClustrMaps visitor map */
+.clustrmaps-container {
+  width: 100%;
+  max-width: 560px;
+  min-height: 360px;
+  margin: 0 auto;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  overflow: hidden;
+}
+
+@media (max-width: 720px) {
+  .clustrmaps-container {
+    max-width: 100%;
+    min-height: 300px;
   }
 }
