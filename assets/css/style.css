@@ -651,18 +651,22 @@ details p { margin-top: 8px; color: #444; font-size: 15px; }
 /* ClustrMaps visitor map */
 .clustrmaps-container {
   width: 100%;
-  max-width: 560px;
-  min-height: 360px;
+  max-width: 540px;
   margin: 0 auto;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  background: #fff;
-  overflow: hidden;
+  text-align: center;
+  line-height: 0;
+}
+
+.clustrmaps-container > a,
+.clustrmaps-container > img,
+.clustrmaps-container iframe,
+.clustrmaps-container canvas,
+.clustrmaps-container svg {
+  max-width: 100% !important;
 }
 
 @media (max-width: 720px) {
   .clustrmaps-container {
     max-width: 100%;
-    min-height: 300px;
   }
 }
